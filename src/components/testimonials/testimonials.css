@@ -1,0 +1,60 @@
+/* Testimonials Section Styles */
+.testimonials-section {
+  background-color: #f0f0f0;
+  padding: 40px 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.testimonials-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.testimonials-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.testimonials-slider {
+  overflow: hidden;
+  max-height: 230px; 
+}
+
+.testimonial {
+  flex: 0 0 100%;
+  max-width: 100%;
+  opacity: 0;
+  padding: 20px;
+  margin: 0 20px;
+  text-align: center;
+  animation: fade 4s infinite alternate forwards; 
+}
+
+@keyframes fade {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.testimonial.active {
+  opacity: 1;
+  animation: none; 
+}
+
+.testimonial-comment {
+  font-size: 18px;
+}
+
+.testimonial-name {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.testimonial-position {
+  margin-top: 5px;
+  color: #777;
+}
