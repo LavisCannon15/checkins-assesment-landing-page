@@ -1,4 +1,3 @@
-
 .features-section {
   background-color: #fff;
   padding: 60px 0;
@@ -19,14 +18,12 @@
 .feature {
   margin-bottom: 40px;
 
-    display: flex;
+  display: flex;
   justify-content: space-evenly;
   align-items: center;
   padding: 20px;
   border-bottom: 1px solid #ddd;
   box-sizing: border-box;
-
-  
 }
 
 .feature-content {
@@ -61,12 +58,8 @@
   border-radius: 5px;
 
   width: 263px;
-  
-
-  
 }
 
-/* Alternate layout for even-indexed features */
 .feature-content.image-left {
   flex-direction: row-reverse;
 }
@@ -74,5 +67,3 @@
 .feature-content.image-right {
   flex-direction: row;
 }
-
-

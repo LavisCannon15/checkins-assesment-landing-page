@@ -1,5 +1,5 @@
- import React from "react";
- import "./hero.css";
+import React from "react";
+import "./hero.css";
 
 const Hero = () => {
   return (
@@ -14,9 +14,7 @@ const Hero = () => {
           Get Started
         </a>
       </div>
-      <div className="hero__image">
-        
-      </div>
+      <div className="hero__image"></div>
     </section>
   );
 };

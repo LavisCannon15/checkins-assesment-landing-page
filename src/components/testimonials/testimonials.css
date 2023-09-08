@@ -1,4 +1,3 @@
-/* Testimonials Section Styles */
 .testimonials-section {
   background-color: #f0f0f0;
   padding: 40px 0;
@@ -18,7 +17,7 @@
 
 .testimonials-slider {
   overflow: hidden;
-  max-height: 230px; 
+  max-height: 230px;
 }
 
 .testimonial {
@@ -28,11 +27,12 @@
   padding: 20px;
   margin: 0 20px;
   text-align: center;
-  animation: fade 4s infinite alternate forwards; 
+  animation: fade 4s infinite alternate forwards;
 }
 
 @keyframes fade {
-  0%, 100% {
+  0%,
+  100% {
     opacity: 0;
   }
   50% {
@@ -42,7 +42,7 @@
 
 .testimonial.active {
   opacity: 1;
-  animation: none; 
+  animation: none;
 }
 
 .testimonial-comment {

@@ -1,38 +1,35 @@
-import './App.css';
+import "./App.css";
 
-import Header from '../header/header';
+import Header from "../header/header";
 
+import Hero from "../hero/hero";
 
-import Hero from '../hero/hero';
+import Mission from "../mission/mission";
 
-import Mission from '../mission/mission';
+import Features from "../features/features";
 
-
-
-import Features from '../features/features';
-
-import Membership from '../membership/membership';
+import Membership from "../membership/membership";
 
 import Testimonials from "../testimonials/testimonials";
 
-import Form from '../form/form';
+import Form from "../form/form";
 
-import Faq from '../faq/faq';
+import Faq from "../faq/faq";
 
-import Footer from '../footer/footer';
+import Footer from "../footer/footer";
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Hero/>
-      <Mission/>
-      <Features/>
-      <Membership/>
-      <Testimonials/>
+      <Header />
+      <Hero />
+      <Mission />
+      <Features />
+      <Membership />
+      <Testimonials />
       <Form />
       <Faq />
-      <Footer/>
+      <Footer />
     </div>
   );
 }

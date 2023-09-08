@@ -1,4 +1,3 @@
-
 .membership-section {
   background-color: white;
   padding: 40px 0;
@@ -18,19 +17,21 @@
 .membership-cards {
   display: flex;
   justify-content: space-between;
-  gap: 20px; 
-  flex-wrap: wrap; 
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 .membership-card {
-  flex: 0 0 calc(33.33% - 20px); 
+  flex: 0 0 calc(33.33% - 20px);
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 5px;
   padding: 20px;
   box-sizing: border-box;
   text-align: center;
-  transition: transform 0.2s, box-shadow 0.2s;
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
 }
 
 .membership-card:hover {
@@ -66,16 +67,17 @@
   font-size: 16px;
   font-weight: bold;
   cursor: pointer;
-  transition: background-color 0.2s, color 0.2s;
+  transition:
+    background-color 0.2s,
+    color 0.2s;
 }
 
 .learn-more-button:hover {
   background-color: #0056b3;
 }
 
-
 @media screen and (max-width: 321px) {
- .membership-cards {
+  .membership-cards {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -84,39 +86,28 @@
   .membership-card {
     padding: 40px;
   }
-
 }
 
 @media screen and (max-width: 426px) {
-
-   .membership-cards {
+  .membership-cards {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-    .membership-card {
+  .membership-card {
     padding: 40px;
   }
-
 }
 
 @media screen and (max-width: 769px) {
-
-      .membership-card {
+  .membership-card {
     padding: 30px;
   }
-
 }
 
-
 @media screen and (max-width: 1025px) {
-
-      .membership-card {
+  .membership-card {
     padding: 23px;
   }
-
-
-  
-
 }

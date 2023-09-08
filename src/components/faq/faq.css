@@ -22,14 +22,14 @@
   border-radius: 5px;
   margin-bottom: 10px;
   cursor: pointer;
-  max-height: 50px; 
-  overflow: hidden; 
-  transition: max-height 0.5s ease; 
+  max-height: 50px;
+  overflow: hidden;
+  transition: max-height 0.5s ease;
 }
 
 .faq-item.active {
   background-color: #fff;
-  max-height: 1000px; 
+  max-height: 1000px;
 }
 .faq-question {
   display: flex;
@@ -56,13 +56,12 @@
   padding: 10px;
   background-color: #fff;
   border-radius: 0 0 5px 5px;
-  display: none; 
+  display: none;
 }
 
 .faq-answer.active {
-  display: block; 
+  display: block;
 }
-
 
 .contact-us {
   margin-top: 20px;
@@ -88,7 +87,9 @@
   background-color: black;
   color: #fff;
   border-radius: 5px;
-  transition: background-color 0.2s, color 0.2s;
+  transition:
+    background-color 0.2s,
+    color 0.2s;
 }
 
 .contact-button:hover {

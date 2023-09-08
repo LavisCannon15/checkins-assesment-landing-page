@@ -10,12 +10,11 @@ export default function Header() {
     setIsMobileHeaderVisible(!isMobileHeaderVisible);
   };
 
-
   const [isMobileMenuClicked, setIsMobileMenuClicked] = useState(false);
-  
+
   const ToggleMobileMenu = () => {
     setIsMobileMenuClicked(!isMobileMenuClicked);
-  }
+  };
 
   useEffect(() => {
     // Function to handle window resize
