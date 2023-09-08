@@ -87,7 +87,6 @@
 
 }
 
-
 @media screen and (max-width: 426px) {
 
    .membership-cards {
@@ -99,5 +98,25 @@
     .membership-card {
     padding: 40px;
   }
+
+}
+
+@media screen and (max-width: 769px) {
+
+      .membership-card {
+    padding: 30px;
+  }
+
+}
+
+
+@media screen and (max-width: 1025px) {
+
+      .membership-card {
+    padding: 23px;
+  }
+
+
+  
 
 }
