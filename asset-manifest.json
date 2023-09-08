@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/checkins-assesment-landing-page/static/css/main.de90b10c.css",
+    "main.css": "/checkins-assesment-landing-page/static/css/main.d2d0471d.css",
     "main.js": "/checkins-assesment-landing-page/static/js/main.a5a3a6fc.js",
     "static/js/787.47a3c85b.chunk.js": "/checkins-assesment-landing-page/static/js/787.47a3c85b.chunk.js",
     "static/media/travel-mananger-membership.svg": "/checkins-assesment-landing-page/static/media/travel-mananger-membership.261b326ecf7da4406e2f92d0e9e6c4ca.svg",
@@ -12,12 +12,12 @@
     "static/media/savings.svg": "/checkins-assesment-landing-page/static/media/savings.7c25a23353dea3b5ae1c4c7b34e116b5.svg",
     "index.html": "/checkins-assesment-landing-page/index.html",
     "static/media/mobile-menu.svg": "/checkins-assesment-landing-page/static/media/mobile-menu.22a05970d93e0f98250a9ec63d516662.svg",
-    "main.de90b10c.css.map": "/checkins-assesment-landing-page/static/css/main.de90b10c.css.map",
+    "main.d2d0471d.css.map": "/checkins-assesment-landing-page/static/css/main.d2d0471d.css.map",
     "main.a5a3a6fc.js.map": "/checkins-assesment-landing-page/static/js/main.a5a3a6fc.js.map",
     "787.47a3c85b.chunk.js.map": "/checkins-assesment-landing-page/static/js/787.47a3c85b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.de90b10c.css",
+    "static/css/main.d2d0471d.css",
     "static/js/main.a5a3a6fc.js"
   ]
 }
